@@ -54,7 +54,9 @@ enterprise-insights-rag-analytics/
 ├── requirements.txt                   # Project Dependencies
 └── README.md                          # Project Documentation
 
-🚀 Quick Start Guide
+---
+
+## 🚀 Quick Start Guide
 1. Clone the Repository
 git clone https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git
 cd enterprise-insights-rag-analytics
@@ -84,4 +86,8 @@ Amey Mestry
 🔗 LinkedIn: linkedin.com/in/ameymestry
 
 🐙 GitHub: github.com/AmeyMestry2801
+
+---
+
+
 
