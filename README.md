@@ -1,4 +1,3 @@
-Markdown
 # 🏦 Enterprise Customer Risk & Regulatory Analytics Platform
 
 A production-grade, multi-modal enterprise analytics platform combining **Predictive Machine Learning (XGBoost + SHAP)**, **Executive BI Analytics (Plotly + Streamlit)**, and an **AI Compliance Engine (ChromaDB + LangChain RAG)**.
@@ -39,6 +38,7 @@ This platform empowers Business Analysts, Data Scientists, and Regulatory Compli
 
 ## 📁 Repository Structure
 
+```text
 enterprise-insights-rag-analytics/
 ├── data/
 │   └── customer_analytics.csv         # Real Telco Customer Churn Dataset
@@ -54,27 +54,23 @@ enterprise-insights-rag-analytics/
 ├── requirements.txt                   # Project Dependencies
 └── README.md                          # Project Documentation
 
-
----
-
-## 🚀 Quick Start Guide
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git](https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git)
+🚀 Quick Start Guide
+1. Clone the Repository
+git clone https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git
 cd enterprise-insights-rag-analytics
+
 2. Install Dependencies
-Bash
 pip install -r requirements.txt
+
 3. Train the XGBoost Model
-Bash
 python train_model.py
+
 4. Build the ChromaDB Vector Index
-Bash
 python rag_engine.py
+
 5. Launch the Streamlit Platform
-Bash
 streamlit run app.py
+
 🔍 Sample RAG Queries to Test
 "What is the APR threshold for a loan to be classified as a higher-priced mortgage loan under Regulation Z?"
 
@@ -88,3 +84,4 @@ Amey Mestry
 🔗 LinkedIn: linkedin.com/in/ameymestry
 
 🐙 GitHub: github.com/AmeyMestry2801
+
