@@ -1,3 +1,4 @@
+Markdown
 # 🏦 Enterprise Customer Risk & Regulatory Analytics Platform
 
 A production-grade, multi-modal enterprise analytics platform combining **Predictive Machine Learning (XGBoost + SHAP)**, **Executive BI Analytics (Plotly + Streamlit)**, and an **AI Compliance Engine (ChromaDB + LangChain RAG)**.
@@ -38,14 +39,13 @@ This platform empowers Business Analysts, Data Scientists, and Regulatory Compli
 
 ## 📁 Repository Structure
 
-```text
 enterprise-insights-rag-analytics/
 ├── data/
 │   └── customer_analytics.csv         # Real Telco Customer Churn Dataset
 ├── docs/
 │   └── compliance_policy_2026.pdf     # CFPB TILA / Regulation Z Manual
 ├── models/
-│   ├── chroma_db/                     # Local ChromaDB Vector Store (Ignored via .gitignore)
+│   ├── chroma_db/                     # Local ChromaDB Vector Store
 │   └── risk_xgb_model.pkl             # Trained XGBoost & SHAP Explainer Artifacts
 ├── app.py                             # Interactive Streamlit Multi-Tab Application
 ├── train_model.py                     # XGBoost Model Training & SHAP Serialization Pipeline
@@ -54,9 +54,13 @@ enterprise-insights-rag-analytics/
 ├── requirements.txt                   # Project Dependencies
 └── README.md                          # Project Documentation
 
-🚀 Quick Start Guide
-1. Clone the Repository
-Bash
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Clone the Repository
+```bash
 git clone [https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git](https://github.com/AmeyMestry2801/enterprise-insights-rag-analytics.git)
 cd enterprise-insights-rag-analytics
 2. Install Dependencies
@@ -81,10 +85,6 @@ streamlit run app.py
 👤 Author
 Amey Mestry
 
-LinkedIn: linkedin.com/in/ameymestry
+🔗 LinkedIn: linkedin.com/in/ameymestry
 
-GitHub: github.com/AmeyMestry2801
-
-
-
-
+🐙 GitHub: github.com/AmeyMestry2801
