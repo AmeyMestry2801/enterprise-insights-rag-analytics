@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+models/chroma_db/
+models/risk_xgb_model.pkl
+*.pkl
